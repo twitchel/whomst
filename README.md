@@ -1,6 +1,6 @@
-# whomst
+# @vlasky/whomst
 
-Updated fork of [whomst](https://github.com/stuartpb/whomst). Provides missing Node.js functionality to retrieve UNIX user and group info.
+@vlasky/whomst is an updated fork of [whomst](https://github.com/stuartpb/whomst). It provides missing Node.js functionality to retrieve UNIX user and group info.
 
 ![whomst](https://user-images.githubusercontent.com/572196/42921299-331bb322-8ad0-11e8-8cc2-b0713b1871fe.jpg)
 
