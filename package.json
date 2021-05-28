@@ -1,14 +1,14 @@
 {
-  "name": "whomst",
+  "name": "@vlasky/whomst",
   "version": "0.1.6",
-  "description": "Module to get user (passwd) and group info, with lots of fallbacks",
+  "description": "Updated fork of whomst. Provides functions to retrieve UNIX user (passwd) and group/gid info, with multiple fallback methods",
   "main": "index.js",
   "scripts": {
     "test": "test/suite.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stuartpb/whomst.git"
+    "url": "https://github.com/vlasky/whomst.git"
   },
   "keywords": [
     "user",
@@ -28,12 +28,15 @@
     "getgrgid",
     "getent"
   ],
-  "author": "Stuart P. Bentley <s@stuartpb.com>",
+  "author": "Vlad Lasky <github@vladlasky.com> (https://github.com/vlasky)",
+  "contributors": [
+    "Stuart P. Bentley <s@stuartpb.com> (https://github.com/stuartpb)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stuartpb/whomst/issues"
+    "url": "https://github.com/vlasky/whomst/issues"
   },
-  "homepage": "https://github.com/stuartpb/whomst#readme",
+  "homepage": "https://github.com/vlasky/whomst#readme",
   "dependencies": {
     "execa": "^5.0.0"
   },
